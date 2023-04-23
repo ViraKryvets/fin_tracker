@@ -1,0 +1,10 @@
+<h2 style="text-align: center; margin: 15px auto">Editing category</h2>
+
+<%= render "form", category: @category %>
+
+<br>
+
+<div class="col-md-6" style="margin: 0 auto">
+  <%= link_to "Show this category", @category, class:"btn btn-outline-info" %> 
+  <%= link_to "Back to categories", categories_path, class:"btn btn-outline-info" %>
+</div>

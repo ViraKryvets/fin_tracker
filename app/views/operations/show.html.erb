@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @operation %>
+
+<div>
+  <%= link_to "Edit", edit_operation_path(@operation), class:"btn btn-outline-info" %> 
+  <%= link_to "Back to transactions", operations_path, class:"btn btn-outline-info" %>
+  <br/><br/>
+  <%= button_to "Destroy this transaction", @operation, method: :delete, class:"btn btn-outline-secondary" %>
+</div>

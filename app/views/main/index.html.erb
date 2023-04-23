@@ -1,0 +1,35 @@
+
+<h2 style=" margin: 15px auto">Keep your expenses in check! Since the beginning of the month -</h2>
+
+<h2 style="margin: 15px auto">your income - <%=@income_from_begin_month%>, your expenses - <%=@date_sum_curr_month.sum%>.</h2>
+
+<br/>
+
+  <div>
+    <canvas id="myChart"width="900" height="500"></canvas>
+  </div>
+
+  <script>
+  const ctx = document.getElementById('myChart').getContext('2d');
+  const data = {
+    labels: <%=raw @date_current_month%>,
+    datasets: [{
+      label: 'expenses/date',
+      data: <%=@date_sum_curr_month%>,
+      fill: false,
+      borderColor: '#2da9d2',
+      tension: 0.1
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: data,
+    options: {
+      responsive: false
+    }
+  };
+
+  const myChart = new Chart(ctx, config );
+  </script>
+ 

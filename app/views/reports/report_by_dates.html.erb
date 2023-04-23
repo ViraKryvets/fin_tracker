@@ -1,0 +1,32 @@
+
+<h3>Report by dates from <%=params[:start_date]%> to <%=params[:end_date]%>. Total sum - <%=@date_sum.sum%></h3>
+
+
+  <div>
+    <canvas id="myChart"width="900" height="500"></canvas>
+  </div>
+
+  <script>
+  const ctx = document.getElementById('myChart').getContext('2d');
+  const data = {
+    labels: <%=raw @date%>,
+    datasets: [{
+      label: 'sum/date',
+      data: <%=@date_sum%>,
+      fill: false,
+      borderColor: '#2da9d2',
+      tension: 0.1
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: data,
+    options: {
+      responsive: false
+    }
+  };
+
+  const myChart = new Chart(ctx, config );
+  </script>
+ 

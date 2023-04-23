@@ -1,0 +1,10 @@
+<h2 style="text-align: center; margin: 15px auto">Editing transaction</h2>
+
+<%= render "form", operation: @operation %>
+
+<br>
+
+<div class="col-md-6" style="margin: 0 auto">
+  <%= link_to "Show this transaction", @operation, class:"btn btn-outline-info" %> 
+  <%= link_to "Back to transactions", operations_path, class:"btn btn-outline-info" %>
+</div>

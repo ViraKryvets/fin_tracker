@@ -1,0 +1,646 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 10
+  odate: 2023-02-04
+  description: MyString
+  otype: 0
+  category: one
+one_1:
+ amount: 10 
+ odate: 2023-02-04 
+ otype: 0 
+ category: one 
+one_2: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_3: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_4: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_5: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_6: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_7: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_8: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one 
+one_9: 
+  amount: 10 
+  odate: 2023-02-04 
+  otype: 0 
+  category: one
+
+two:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_1:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_2:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_3:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_4:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_5:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_6:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_7:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_8:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+two_9:
+  amount: 20
+  odate: 2023-01-04
+  description: MyString
+  otype: 0
+  category: two
+
+three:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_1:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_2:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_3:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_4:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_5:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_6:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_7:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_8:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+three_9:
+  amount: 30
+  odate: 2022-12-04
+  description: MyString
+  otype: 0
+  category: three
+
+four:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_1:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_2:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_3:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_4:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_5:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_6:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_7:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_8:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four
+four_9:
+  amount: 40
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: four 
+
+five:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_1:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_2:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_3:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_4:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_5:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_6:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_7:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_8:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+five_9:
+  amount: 50
+  odate: 2022-11-04
+  description: MyString
+  otype: 0
+  category: five
+
+six:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_1:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_2:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_3:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_4:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_5:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_6:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_7:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_8:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+six_9:
+  amount: 60
+  odate: 2022-10-04
+  description: MyString
+  otype: 0
+  category: six
+
+seven:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_1:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_2:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_3:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_4:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_5:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_6:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_7:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_8:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+seven_9:
+  amount: 70
+  odate: 2022-09-04
+  description: MyString
+  otype: 0
+  category: seven
+
+eight:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_1:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_2:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_3:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_4:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_5:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_6:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_7:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_8:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+eight_9:
+  amount: 80
+  odate: 2022-08-04
+  description: MyString
+  otype: 0
+  category: eight
+
+nine:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_1:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_2:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_3:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_4:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_5:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_6:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_7:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_8:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+nine_9:
+  amount: 90
+  odate: 2022-07-04
+  description: MyString
+  otype: 0
+  category: nine
+
+ten:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_1:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_2:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_3:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_4:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_5:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_6:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_7:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_8:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+ten_9:
+  amount: 100
+  odate: 2022-06-04
+  description: MyString
+  otype: 0
+  category: ten
+
+el:
+  amount: 1000
+  odate: 2023-02-04
+  description: MyString
+  otype: 1
+  category: ten
+el_1:
+  amount: 100
+  odate: 2023-02-05
+  description: MyString
+  otype: 1
+  category: one
+el_2:
+  amount: 100
+  odate: 2022-09-09
+  description: MyString
+  otype: 1
+  category: one
+el_3:
+  amount: 200
+  odate: 2022-10-09
+  description: MyString
+  otype: 1
+  category: one
+el_4:
+  amount: 200
+  odate: 2022-11-09
+  description: MyString
+  otype: 1
+  category: one
+el_5:
+  amount: 200
+  odate: 2022-12-09
+  description: MyString
+  otype: 1
+  category: one
+el_6:
+  amount: 200
+  odate: 2023-02-09
+  description: MyString
+  otype: 1
+  category: one
+

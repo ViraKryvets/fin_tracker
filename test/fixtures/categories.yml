@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Cat_1
+  description: MyString
+
+two:
+  name: Cat_2
+  description: MyString
+
+three:
+  name: Cat_3
+  description: MyString
+
+four:
+  name: Cat_4
+  description: MyString
+
+five:
+  name: Cat_5
+  description: MyString
+
+six:
+  name: Cat_6
+  description: MyString
+
+seven:
+  name: Cat_7
+  description: MyString
+
+eight:
+  name: Cat_8
+  description: MyString
+
+nine:
+  name: Cat_9
+  description: MyString
+
+ten:
+  name: Cat_10
+  description: MyString
